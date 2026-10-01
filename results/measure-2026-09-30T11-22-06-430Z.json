@@ -1,0 +1,401 @@
+{
+  "durationSeconds": 30,
+  "results": [
+    {
+      "scenario": "closure-context",
+      "mode": "leaky",
+      "speed": 1,
+      "forceGc": true,
+      "samples": [
+        {
+          "t": 0,
+          "heapBeforeGc": 2785412,
+          "heapAfterGc": 2622512,
+          "memBeforeGc": {
+            "renderer": 178257920,
+            "gpu": 199229440,
+            "total": 488636416
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 0,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 0,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "t": 5,
+          "heapBeforeGc": 6450736,
+          "heapAfterGc": 6743008,
+          "memBeforeGc": {
+            "renderer": 188743680,
+            "gpu": 168820736,
+            "total": 471859200
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 50,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 49,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "t": 10,
+          "heapBeforeGc": 10961496,
+          "heapAfterGc": 10853080,
+          "memBeforeGc": {
+            "renderer": 183500800,
+            "gpu": 153092096,
+            "total": 450887680
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 100,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 99,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "t": 15,
+          "heapBeforeGc": 14742008,
+          "heapAfterGc": 14897880,
+          "memBeforeGc": {
+            "renderer": 188743680,
+            "gpu": 153092096,
+            "total": 456130560
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 150,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 149,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 150
+            }
+          ]
+        },
+        {
+          "t": 20,
+          "heapBeforeGc": 18755972,
+          "heapAfterGc": 18911152,
+          "memBeforeGc": {
+            "renderer": 192937984,
+            "gpu": 153092096,
+            "total": 460324864
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 200,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 199,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 200
+            }
+          ]
+        },
+        {
+          "t": 25,
+          "heapBeforeGc": 22783224,
+          "heapAfterGc": 22936800,
+          "memBeforeGc": {
+            "renderer": 197132288,
+            "gpu": 153092096,
+            "total": 464519168
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 250,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 249,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 250
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "heapBeforeGc": 26791768,
+          "heapAfterGc": 26945904,
+          "memBeforeGc": {
+            "renderer": 191889408,
+            "gpu": 153092096,
+            "total": 457179136
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 300,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 299,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 300
+            }
+          ]
+        }
+      ],
+      "warnings": {}
+    },
+    {
+      "scenario": "closure-context",
+      "mode": "fixed",
+      "speed": 1,
+      "forceGc": true,
+      "samples": [
+        {
+          "t": 0,
+          "heapBeforeGc": 2786392,
+          "heapAfterGc": 2142496,
+          "memBeforeGc": {
+            "renderer": 162529280,
+            "gpu": 207618048,
+            "total": 484442112
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 0,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 0,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "t": 5,
+          "heapBeforeGc": 2677656,
+          "heapAfterGc": 2256992,
+          "memBeforeGc": {
+            "renderer": 166723584,
+            "gpu": 163577856,
+            "total": 444596224
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 50,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 49,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "t": 10,
+          "heapBeforeGc": 2982356,
+          "heapAfterGc": 2360376,
+          "memBeforeGc": {
+            "renderer": 166723584,
+            "gpu": 161480704,
+            "total": 442499072
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 100,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 99,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "t": 15,
+          "heapBeforeGc": 3947524,
+          "heapAfterGc": 2398500,
+          "memBeforeGc": {
+            "renderer": 167772160,
+            "gpu": 153092096,
+            "total": 435159040
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 150,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 149,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "t": 20,
+          "heapBeforeGc": 3693720,
+          "heapAfterGc": 2405916,
+          "memBeforeGc": {
+            "renderer": 167772160,
+            "gpu": 153092096,
+            "total": 435159040
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 200,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 199,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "t": 25,
+          "heapBeforeGc": 3456640,
+          "heapAfterGc": 2424332,
+          "memBeforeGc": {
+            "renderer": 167772160,
+            "gpu": 144703488,
+            "total": 426770432
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 250,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 249,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "heapBeforeGc": 3715392,
+          "heapAfterGc": 2426872,
+          "memBeforeGc": {
+            "renderer": 162529280,
+            "gpu": 143654912,
+            "total": 416284672
+          },
+          "domNodes": 194,
+          "gauges": [
+            {
+              "label": "만든 묶음",
+              "value": 300,
+              "chart": false
+            },
+            {
+              "label": "값 변경 감지",
+              "value": 299,
+              "chart": false
+            },
+            {
+              "label": "메모리에 남은 묶음",
+              "value": 6
+            }
+          ]
+        }
+      ],
+      "warnings": {}
+    }
+  ]
+}

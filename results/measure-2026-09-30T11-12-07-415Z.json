@@ -1,0 +1,457 @@
+{
+  "durationSeconds": 30,
+  "results": [
+    {
+      "scenario": "detached-dom",
+      "mode": "leaky",
+      "speed": 1,
+      "forceGc": true,
+      "samples": [
+        {
+          "t": 0,
+          "heapBeforeGc": 2792392,
+          "heapAfterGc": 2306280,
+          "memBeforeGc": {
+            "renderer": 176160768,
+            "gpu": 198180864,
+            "total": 487587840
+          },
+          "domNodes": 225,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 0,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 0,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 0
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 95
+            }
+          ]
+        },
+        {
+          "t": 5,
+          "heapBeforeGc": 4641972,
+          "heapAfterGc": 4013488,
+          "memBeforeGc": {
+            "renderer": 179306496,
+            "gpu": 166723584,
+            "total": 461373440
+          },
+          "domNodes": 423,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 20,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 100,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 80
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 115
+            }
+          ]
+        },
+        {
+          "t": 10,
+          "heapBeforeGc": 6338076,
+          "heapAfterGc": 5794180,
+          "memBeforeGc": {
+            "renderer": 175112192,
+            "gpu": 153092096,
+            "total": 443547648
+          },
+          "domNodes": 623,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 21,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 200,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 179
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 116
+            }
+          ]
+        },
+        {
+          "t": 15,
+          "heapBeforeGc": 7571728,
+          "heapAfterGc": 7437024,
+          "memBeforeGc": {
+            "renderer": 177209344,
+            "gpu": 153092096,
+            "total": 445644800
+          },
+          "domNodes": 823,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 20,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 300,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 280
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 115
+            }
+          ]
+        },
+        {
+          "t": 20,
+          "heapBeforeGc": 9613636,
+          "heapAfterGc": 9102392,
+          "memBeforeGc": {
+            "renderer": 179306496,
+            "gpu": 153092096,
+            "total": 447741952
+          },
+          "domNodes": 1025,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 21,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 400,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 379
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 116
+            }
+          ]
+        },
+        {
+          "t": 25,
+          "heapBeforeGc": 10871912,
+          "heapAfterGc": 10687892,
+          "memBeforeGc": {
+            "renderer": 180355072,
+            "gpu": 153092096,
+            "total": 448790528
+          },
+          "domNodes": 1223,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 20,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 500,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 480
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 115
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "heapBeforeGc": 12850524,
+          "heapAfterGc": 12317588,
+          "memBeforeGc": {
+            "renderer": 173015040,
+            "gpu": 153092096,
+            "total": 441450496
+          },
+          "domNodes": 1425,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 21,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 600,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 579
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 116
+            }
+          ]
+        }
+      ],
+      "warnings": {}
+    },
+    {
+      "scenario": "detached-dom",
+      "mode": "fixed",
+      "speed": 1,
+      "forceGc": true,
+      "samples": [
+        {
+          "t": 0,
+          "heapBeforeGc": 2793356,
+          "heapAfterGc": 2290636,
+          "memBeforeGc": {
+            "renderer": 161480704,
+            "gpu": 207618048,
+            "total": 484442112
+          },
+          "domNodes": 223,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 0,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 0,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 0
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 95
+            }
+          ]
+        },
+        {
+          "t": 5,
+          "heapBeforeGc": 4634100,
+          "heapAfterGc": 2549960,
+          "memBeforeGc": {
+            "renderer": 165675008,
+            "gpu": 163577856,
+            "total": 444596224
+          },
+          "domNodes": 237,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 20,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 100,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 0
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 115
+            }
+          ]
+        },
+        {
+          "t": 10,
+          "heapBeforeGc": 4806076,
+          "heapAfterGc": 2687340,
+          "memBeforeGc": {
+            "renderer": 165675008,
+            "gpu": 161480704,
+            "total": 442499072
+          },
+          "domNodes": 237,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 21,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 200,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 0
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 116
+            }
+          ]
+        },
+        {
+          "t": 15,
+          "heapBeforeGc": 4425356,
+          "heapAfterGc": 2703936,
+          "memBeforeGc": {
+            "renderer": 166723584,
+            "gpu": 153092096,
+            "total": 435159040
+          },
+          "domNodes": 235,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 20,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 300,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 0
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 115
+            }
+          ]
+        },
+        {
+          "t": 20,
+          "heapBeforeGc": 4764676,
+          "heapAfterGc": 2758896,
+          "memBeforeGc": {
+            "renderer": 166723584,
+            "gpu": 153092096,
+            "total": 435159040
+          },
+          "domNodes": 237,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 21,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 400,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 0
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 116
+            }
+          ]
+        },
+        {
+          "t": 25,
+          "heapBeforeGc": 4521780,
+          "heapAfterGc": 2735360,
+          "memBeforeGc": {
+            "renderer": 165675008,
+            "gpu": 153092096,
+            "total": 434110464
+          },
+          "domNodes": 235,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 20,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 500,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 0
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 115
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "heapBeforeGc": 4830972,
+          "heapAfterGc": 2754120,
+          "memBeforeGc": {
+            "renderer": 161480704,
+            "gpu": 152043520,
+            "total": 424673280
+          },
+          "domNodes": 237,
+          "gauges": [
+            {
+              "label": "화면에 표시 중인 툴팁",
+              "value": 21,
+              "chart": false
+            },
+            {
+              "label": "만든 툴팁",
+              "value": 600,
+              "chart": false
+            },
+            {
+              "label": "화면에서 제거됐지만 남은 툴팁",
+              "value": 0
+            },
+            {
+              "label": "문서의 DOM 노드",
+              "value": 116
+            }
+          ]
+        }
+      ],
+      "warnings": {}
+    }
+  ]
+}

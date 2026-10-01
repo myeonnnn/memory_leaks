@@ -1,0 +1,331 @@
+{
+  "durationSeconds": 30,
+  "results": [
+    {
+      "scenario": "zombie-listener",
+      "mode": "leaky",
+      "speed": 1,
+      "forceGc": true,
+      "samples": [
+        {
+          "t": 0,
+          "heapBeforeGc": 2789272,
+          "heapAfterGc": 2267080,
+          "memBeforeGc": {
+            "renderer": 176160768,
+            "gpu": 203423744,
+            "total": 489684992
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 1,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 5,
+          "heapBeforeGc": 3537616,
+          "heapAfterGc": 3460288,
+          "memBeforeGc": {
+            "renderer": 179306496,
+            "gpu": 165675008,
+            "total": 457179136
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 51,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 51
+            }
+          ]
+        },
+        {
+          "t": 10,
+          "heapBeforeGc": 5547908,
+          "heapAfterGc": 5785100,
+          "memBeforeGc": {
+            "renderer": 175112192,
+            "gpu": 152043520,
+            "total": 439353344
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 101,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 101
+            }
+          ]
+        },
+        {
+          "t": 15,
+          "heapBeforeGc": 9227648,
+          "heapAfterGc": 8856784,
+          "memBeforeGc": {
+            "renderer": 179306496,
+            "gpu": 152043520,
+            "total": 443547648
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 151,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 151
+            }
+          ]
+        },
+        {
+          "t": 20,
+          "heapBeforeGc": 13219460,
+          "heapAfterGc": 12511036,
+          "memBeforeGc": {
+            "renderer": 185597952,
+            "gpu": 152043520,
+            "total": 449839104
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 201,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 201
+            }
+          ]
+        },
+        {
+          "t": 25,
+          "heapBeforeGc": 17867192,
+          "heapAfterGc": 16832260,
+          "memBeforeGc": {
+            "renderer": 192937984,
+            "gpu": 152043520,
+            "total": 457179136
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 251,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 251
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "heapBeforeGc": 21222784,
+          "heapAfterGc": 21706420,
+          "memBeforeGc": {
+            "renderer": 188743680,
+            "gpu": 152043520,
+            "total": 454033408
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 301,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 301
+            }
+          ]
+        }
+      ],
+      "warnings": {}
+    },
+    {
+      "scenario": "zombie-listener",
+      "mode": "fixed",
+      "speed": 1,
+      "forceGc": true,
+      "samples": [
+        {
+          "t": 0,
+          "heapBeforeGc": 2790200,
+          "heapAfterGc": 2233348,
+          "memBeforeGc": {
+            "renderer": 163577856,
+            "gpu": 206569472,
+            "total": 483393536
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 1,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 5,
+          "heapBeforeGc": 2581904,
+          "heapAfterGc": 2426424,
+          "memBeforeGc": {
+            "renderer": 165675008,
+            "gpu": 162529280,
+            "total": 441450496
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 51,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 10,
+          "heapBeforeGc": 3296532,
+          "heapAfterGc": 2552024,
+          "memBeforeGc": {
+            "renderer": 164626432,
+            "gpu": 161480704,
+            "total": 439353344
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 100,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 15,
+          "heapBeforeGc": 3179516,
+          "heapAfterGc": 2577228,
+          "memBeforeGc": {
+            "renderer": 164626432,
+            "gpu": 152043520,
+            "total": 429916160
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 151,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 20,
+          "heapBeforeGc": 3201756,
+          "heapAfterGc": 2587968,
+          "memBeforeGc": {
+            "renderer": 164626432,
+            "gpu": 152043520,
+            "total": 429916160
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 200,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 25,
+          "heapBeforeGc": 3273140,
+          "heapAfterGc": 2664488,
+          "memBeforeGc": {
+            "renderer": 164626432,
+            "gpu": 152043520,
+            "total": 429916160
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 251,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "heapBeforeGc": 3268508,
+          "heapAfterGc": 2665984,
+          "memBeforeGc": {
+            "renderer": 159383552,
+            "gpu": 150994944,
+            "total": 419430400
+          },
+          "domNodes": 197,
+          "gauges": [
+            {
+              "label": "effect 실행 횟수",
+              "value": 300,
+              "chart": false
+            },
+            {
+              "label": "리스너 수",
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "warnings": {}
+    }
+  ]
+}

@@ -1,0 +1,1162 @@
+{
+  "durationSeconds": 30,
+  "results": [
+    {
+      "scenario": null,
+      "mode": null,
+      "speed": 100,
+      "forceGc": true,
+      "samples": [
+        {
+          "t": 0,
+          "heapBeforeGc": 2681848,
+          "heapAfterGc": 2014252,
+          "memBeforeGc": {
+            "renderer": 174063616,
+            "gpu": 202375168,
+            "total": 485490688
+          },
+          "domNodes": 277,
+          "gauges": []
+        },
+        {
+          "t": 5,
+          "heapBeforeGc": 2950444,
+          "heapAfterGc": 2159392,
+          "memBeforeGc": {
+            "renderer": 175112192,
+            "gpu": 173015040,
+            "total": 460324864
+          },
+          "domNodes": 277,
+          "gauges": []
+        },
+        {
+          "t": 10,
+          "heapBeforeGc": 2924516,
+          "heapAfterGc": 2239640,
+          "memBeforeGc": {
+            "renderer": 166723584,
+            "gpu": 202375168,
+            "total": 480247808
+          },
+          "domNodes": 277,
+          "gauges": []
+        },
+        {
+          "t": 15,
+          "heapBeforeGc": 2885288,
+          "heapAfterGc": 2254476,
+          "memBeforeGc": {
+            "renderer": 166723584,
+            "gpu": 167772160,
+            "total": 445644800
+          },
+          "domNodes": 277,
+          "gauges": []
+        },
+        {
+          "t": 20,
+          "heapBeforeGc": 2913548,
+          "heapAfterGc": 2258840,
+          "memBeforeGc": {
+            "renderer": 166723584,
+            "gpu": 166723584,
+            "total": 444596224
+          },
+          "domNodes": 277,
+          "gauges": []
+        },
+        {
+          "t": 25,
+          "heapBeforeGc": 3028396,
+          "heapAfterGc": 2271416,
+          "memBeforeGc": {
+            "renderer": 166723584,
+            "gpu": 168820736,
+            "total": 446693376
+          },
+          "domNodes": 277,
+          "gauges": []
+        },
+        {
+          "t": 30,
+          "heapBeforeGc": 2667740,
+          "heapAfterGc": 2266072,
+          "memBeforeGc": {
+            "renderer": 157286400,
+            "gpu": 168820736,
+            "total": 438304768
+          },
+          "domNodes": 277,
+          "gauges": []
+        }
+      ],
+      "warnings": {}
+    },
+    {
+      "scenario": "unbounded-history",
+      "mode": "leaky",
+      "speed": 100,
+      "forceGc": true,
+      "samples": [
+        {
+          "t": 0,
+          "heapBeforeGc": 2777224,
+          "heapAfterGc": 2608372,
+          "memBeforeGc": {
+            "renderer": 162529280,
+            "gpu": 212860928,
+            "total": 488636416
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 39
+            }
+          ]
+        },
+        {
+          "t": 5,
+          "heapBeforeGc": 7403036,
+          "heapAfterGc": 6657860,
+          "memBeforeGc": {
+            "renderer": 170917888,
+            "gpu": 207618048,
+            "total": 490733568
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 29988
+            }
+          ]
+        },
+        {
+          "t": 10,
+          "heapBeforeGc": 10549652,
+          "heapAfterGc": 10566736,
+          "memBeforeGc": {
+            "renderer": 175112192,
+            "gpu": 171966464,
+            "total": 459276288
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 60043
+            }
+          ]
+        },
+        {
+          "t": 15,
+          "heapBeforeGc": 14520920,
+          "heapAfterGc": 14466956,
+          "memBeforeGc": {
+            "renderer": 179306496,
+            "gpu": 207618048,
+            "total": 499122176
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 89991
+            }
+          ]
+        },
+        {
+          "t": 20,
+          "heapBeforeGc": 18629424,
+          "heapAfterGc": 18440292,
+          "memBeforeGc": {
+            "renderer": 184549376,
+            "gpu": 206569472,
+            "total": 503316480
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 120037
+            }
+          ]
+        },
+        {
+          "t": 25,
+          "heapBeforeGc": 21848800,
+          "heapAfterGc": 22150880,
+          "memBeforeGc": {
+            "renderer": 187695104,
+            "gpu": 173015040,
+            "total": 472907776
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 149990
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "heapBeforeGc": 26482596,
+          "heapAfterGc": 26236668,
+          "memBeforeGc": {
+            "renderer": 183500800,
+            "gpu": 203423744,
+            "total": 494927872
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 180038
+            }
+          ]
+        }
+      ],
+      "warnings": {}
+    },
+    {
+      "scenario": "unbounded-history",
+      "mode": "fixed",
+      "speed": 100,
+      "forceGc": true,
+      "samples": [
+        {
+          "t": 0,
+          "heapBeforeGc": 2731540,
+          "heapAfterGc": 2498384,
+          "memBeforeGc": {
+            "renderer": 160432128,
+            "gpu": 209715200,
+            "total": 481296384
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "t": 5,
+          "heapBeforeGc": 4036156,
+          "heapAfterGc": 2638476,
+          "memBeforeGc": {
+            "renderer": 163577856,
+            "gpu": 203423744,
+            "total": 475004928
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 3600
+            }
+          ]
+        },
+        {
+          "t": 10,
+          "heapBeforeGc": 4662316,
+          "heapAfterGc": 2719304,
+          "memBeforeGc": {
+            "renderer": 163577856,
+            "gpu": 162529280,
+            "total": 434110464
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 3600
+            }
+          ]
+        },
+        {
+          "t": 15,
+          "heapBeforeGc": 3884024,
+          "heapAfterGc": 2740904,
+          "memBeforeGc": {
+            "renderer": 162529280,
+            "gpu": 201326592,
+            "total": 471859200
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 3600
+            }
+          ]
+        },
+        {
+          "t": 20,
+          "heapBeforeGc": 3575188,
+          "heapAfterGc": 2745768,
+          "memBeforeGc": {
+            "renderer": 162529280,
+            "gpu": 201326592,
+            "total": 471859200
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 3600
+            }
+          ]
+        },
+        {
+          "t": 25,
+          "heapBeforeGc": 3811932,
+          "heapAfterGc": 2756092,
+          "memBeforeGc": {
+            "renderer": 163577856,
+            "gpu": 168820736,
+            "total": 440401920
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 3600
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "heapBeforeGc": 4463340,
+          "heapAfterGc": 2757100,
+          "memBeforeGc": {
+            "renderer": 158334976,
+            "gpu": 167772160,
+            "total": 434110464
+          },
+          "domNodes": 277,
+          "gauges": [
+            {
+              "label": "보관 중인 샘플",
+              "value": 3600
+            }
+          ]
+        }
+      ],
+      "warnings": {}
+    },
+    {
+      "scenario": "zombie-listener",
+      "mode": "leaky",
+      "speed": 1,
+      "forceGc": true,
+      "samples": [
+        {
+          "t": 0,
+          "heapBeforeGc": 2743816,
+          "heapAfterGc": 2245808,
+          "memBeforeGc": {
+            "renderer": 160432128,
+            "gpu": 214958080,
+            "total": 485490688
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 1
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 5,
+          "heapBeforeGc": 3331372,
+          "heapAfterGc": 3437184,
+          "memBeforeGc": {
+            "renderer": 168820736,
+            "gpu": 204472320,
+            "total": 481296384
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 51
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 51
+            }
+          ]
+        },
+        {
+          "t": 10,
+          "heapBeforeGc": 5659068,
+          "heapAfterGc": 5776908,
+          "memBeforeGc": {
+            "renderer": 168820736,
+            "gpu": 206569472,
+            "total": 483393536
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 100
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "t": 15,
+          "heapBeforeGc": 8916396,
+          "heapAfterGc": 8819540,
+          "memBeforeGc": {
+            "renderer": 171966464,
+            "gpu": 204472320,
+            "total": 484442112
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 151
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 151
+            }
+          ]
+        },
+        {
+          "t": 20,
+          "heapBeforeGc": 12616356,
+          "heapAfterGc": 12467428,
+          "memBeforeGc": {
+            "renderer": 177209344,
+            "gpu": 206569472,
+            "total": 491782144
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 200
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 200
+            }
+          ]
+        },
+        {
+          "t": 25,
+          "heapBeforeGc": 17355172,
+          "heapAfterGc": 16805152,
+          "memBeforeGc": {
+            "renderer": 186646528,
+            "gpu": 170917888,
+            "total": 465567744
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 251
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 251
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "heapBeforeGc": 21115876,
+          "heapAfterGc": 21663968,
+          "memBeforeGc": {
+            "renderer": 186646528,
+            "gpu": 204472320,
+            "total": 499122176
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 300
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 300
+            }
+          ]
+        }
+      ],
+      "warnings": {}
+    },
+    {
+      "scenario": "zombie-listener",
+      "mode": "fixed",
+      "speed": 1,
+      "forceGc": true,
+      "samples": [
+        {
+          "t": 0,
+          "heapBeforeGc": 2775564,
+          "heapAfterGc": 2211708,
+          "memBeforeGc": {
+            "renderer": 160432128,
+            "gpu": 217055232,
+            "total": 485490688
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 1
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 5,
+          "heapBeforeGc": 2466924,
+          "heapAfterGc": 2401864,
+          "memBeforeGc": {
+            "renderer": 167772160,
+            "gpu": 205520896,
+            "total": 481296384
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 51
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 10,
+          "heapBeforeGc": 2585332,
+          "heapAfterGc": 2526092,
+          "memBeforeGc": {
+            "renderer": 165675008,
+            "gpu": 169869312,
+            "total": 443547648
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 101
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 15,
+          "heapBeforeGc": 2543840,
+          "heapAfterGc": 2538984,
+          "memBeforeGc": {
+            "renderer": 166723584,
+            "gpu": 203423744,
+            "total": 478150656
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 151
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 20,
+          "heapBeforeGc": 2571204,
+          "heapAfterGc": 2544800,
+          "memBeforeGc": {
+            "renderer": 165675008,
+            "gpu": 170917888,
+            "total": 444596224
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 201
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 25,
+          "heapBeforeGc": 2661728,
+          "heapAfterGc": 2614228,
+          "memBeforeGc": {
+            "renderer": 165675008,
+            "gpu": 170917888,
+            "total": 444596224
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 251
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "heapBeforeGc": 3274780,
+          "heapAfterGc": 2617772,
+          "memBeforeGc": {
+            "renderer": 161480704,
+            "gpu": 204472320,
+            "total": 473956352
+          },
+          "domNodes": 282,
+          "gauges": [
+            {
+              "label": "패널 effect 실행",
+              "value": 300
+            },
+            {
+              "label": "스트림 motion 리스너",
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "warnings": {}
+    },
+    {
+      "scenario": "video-frames",
+      "mode": "leaky",
+      "speed": 1,
+      "forceGc": false,
+      "samples": [
+        {
+          "t": 0,
+          "heapBeforeGc": 2769648,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 160432128,
+            "gpu": 227540992,
+            "total": 498073600
+          },
+          "domNodes": 294,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 0
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 0
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 0
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 0
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 0,
+              "unit": "MB"
+            }
+          ]
+        },
+        {
+          "t": 5,
+          "heapBeforeGc": 2935244,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 163577856,
+            "gpu": 286261248,
+            "total": 557842432
+          },
+          "domNodes": 294,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 75
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 0
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 30
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 1
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 25.48828125,
+              "unit": "MB"
+            }
+          ]
+        },
+        {
+          "t": 10,
+          "heapBeforeGc": 3007772,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 165675008,
+            "gpu": 360710144,
+            "total": 634388480
+          },
+          "domNodes": 294,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 151
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 0
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 106
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 80
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 22.8515625,
+              "unit": "MB"
+            }
+          ]
+        },
+        {
+          "t": 15,
+          "heapBeforeGc": 3221752,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 166723584,
+            "gpu": 429916160,
+            "total": 704643072
+          },
+          "domNodes": 294,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 227
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 0
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 182
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 80
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 89.6484375,
+              "unit": "MB"
+            }
+          ]
+        },
+        {
+          "t": 20,
+          "heapBeforeGc": 3430400,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 166723584,
+            "gpu": 501219328,
+            "total": 775946240
+          },
+          "domNodes": 294,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 302
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 0
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 257
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 80
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 155.56640625,
+              "unit": "MB"
+            }
+          ]
+        },
+        {
+          "t": 25,
+          "heapBeforeGc": 3639764,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 168820736,
+            "gpu": 573571072,
+            "total": 850395136
+          },
+          "domNodes": 294,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 378
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 0
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 333
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 80
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 222.36328125,
+              "unit": "MB"
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "heapBeforeGc": 3097164,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 159383552,
+            "gpu": 255852544,
+            "total": 523239424
+          },
+          "domNodes": 279,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 454
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 0
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 409
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 363
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 40.4296875,
+              "unit": "MB"
+            }
+          ]
+        }
+      ],
+      "warnings": {
+        "A VideoFrame was garbage collected without being closed. Applications should call close() ": 1
+      }
+    },
+    {
+      "scenario": "video-frames",
+      "mode": "fixed",
+      "speed": 1,
+      "forceGc": false,
+      "samples": [
+        {
+          "t": 0,
+          "heapBeforeGc": 2769608,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 158334976,
+            "gpu": 229638144,
+            "total": 499122176
+          },
+          "domNodes": 294,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 0
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 0
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 0
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 0
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 0,
+              "unit": "MB"
+            }
+          ]
+        },
+        {
+          "t": 5,
+          "heapBeforeGc": 2919056,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 162529280,
+            "gpu": 253755392,
+            "total": 524288000
+          },
+          "domNodes": 294,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 75
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 30
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 0
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 0
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 0,
+              "unit": "MB"
+            }
+          ]
+        },
+        {
+          "t": 10,
+          "heapBeforeGc": 2980392,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 162529280,
+            "gpu": 214958080,
+            "total": 485490688
+          },
+          "domNodes": 294,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 151
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 106
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 0
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 0
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 0,
+              "unit": "MB"
+            }
+          ]
+        },
+        {
+          "t": 15,
+          "heapBeforeGc": 3191156,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 163577856,
+            "gpu": 250609664,
+            "total": 522190848
+          },
+          "domNodes": 294,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 227
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 182
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 0
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 0
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 0,
+              "unit": "MB"
+            }
+          ]
+        },
+        {
+          "t": 20,
+          "heapBeforeGc": 3396584,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 163577856,
+            "gpu": 214958080,
+            "total": 486539264
+          },
+          "domNodes": 294,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 303
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 258
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 0
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 0
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 0,
+              "unit": "MB"
+            }
+          ]
+        },
+        {
+          "t": 25,
+          "heapBeforeGc": 3603056,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 164626432,
+            "gpu": 214958080,
+            "total": 487587840
+          },
+          "domNodes": 294,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 378
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 333
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 0
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 0
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 0,
+              "unit": "MB"
+            }
+          ]
+        },
+        {
+          "t": 30,
+          "heapBeforeGc": 3042192,
+          "heapAfterGc": null,
+          "memBeforeGc": {
+            "renderer": 157286400,
+            "gpu": 216006656,
+            "total": 481296384
+          },
+          "domNodes": 279,
+          "gauges": [
+            {
+              "label": "만든 프레임",
+              "value": 454
+            },
+            {
+              "label": "close() 한 프레임",
+              "value": 409
+            },
+            {
+              "label": "닫지 않고 버린 프레임",
+              "value": 0
+            },
+            {
+              "label": "그중 GC가 대신 치운 것",
+              "value": 0
+            },
+            {
+              "label": "GC 대기 중 (추정)",
+              "value": 0,
+              "unit": "MB"
+            }
+          ]
+        }
+      ],
+      "warnings": {}
+    }
+  ]
+}
